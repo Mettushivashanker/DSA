@@ -1,4 +1,7 @@
 l=[2,5,6,7,1,2]
+l1=[]
 elm=int(input('Enter the element to be added'))
-l.insert(0,elm)
-print(l)
+l1.append(elm)
+for i in l:
+    l1.append(i)
+print(l1)
